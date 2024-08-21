@@ -1,0 +1,43 @@
+.menu-lateral {
+    background-color: rgb(51,51,51);
+    position: fixed;
+    width: 220px;
+    top: 54px;
+    left: 0;
+    bottom: 0;
+}
+.imagem-empresa{
+    background-color: rgb(40,40,40);
+    background-image: url('../../../assets/montanha-kami.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+    height: 112px;
+    justify-content: space-between;
+}
+.imagem-logo {
+    position: relative;
+    width: 200px;  
+    height: 112px;
+    background-image: url('../../../assets/logo-gerencer-kami.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    top: 20px;
+}
+.fs-10 {
+    font-size: 14px;
+}
+.list-group  {
+    color: #fff;
+}
+.departamento {
+    font-size: 11px;
+    color: #ffffff73;
+    padding: 15px 0px 0px 15px;
+}
+.tabela-faturamento {
+    width: 400px;
+    margin: auto;
+
+}

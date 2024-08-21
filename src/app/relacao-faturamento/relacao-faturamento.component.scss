@@ -1,0 +1,67 @@
+.relacao-faturamento {
+    background-color: #d9e0e7;
+    position: fixed;
+    top: 54px;
+    right: 0px;
+    left: 220px;
+    bottom: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    overflow: auto;
+}   
+.tela-maxima-faturamento {
+    max-width: 1600px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.botao-expandir {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #000;
+    
+    i {
+        font-size: 10px;
+        position: relative;
+        top: -3.5px;
+        left: 5px;
+    }
+}
+.btn-visualizar {
+    background-color: #727cb6;
+    color: #fff;
+}
+.bg-color-info {
+    background-color: #2ea7cb;
+    color: #fff;
+}
+
+.card-tabela {
+    max-width: 1600px;
+    position: relative;
+    left: 50%;
+    margin-bottom: 100px;
+    transform: translate(-50%);
+}
+
+.tabela-faturamento {
+    width: 760px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid lightgray;
+    border-bottom: 0px;
+}
+.linha-tabela {
+    border-right: 1px solid lightgray 
+}
+
+.btn-small {
+    padding: 2px 10px;
+    font-size: 12px;
+}

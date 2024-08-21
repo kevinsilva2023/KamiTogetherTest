@@ -1,0 +1,67 @@
+<div class="card">
+    <div class="card-header d-flex justify-content-between bg-color-info align-items-center">
+        <div class="fw-bold" style="font-size: 14px;">Pré Visualizar - Faturamento</div>
+        <div class="d-flex gap-2">
+            <button class="btn btn-visualizar btn-small d-flex gap-2 align-items-center">
+                <i class="bi bi-envelope-arrow-up-fill"></i>
+                <span>Enviar por E-mail</span>
+            </button>
+            <button class="btn btn-danger btn-small d-flex gap-2">
+                <i class="bi bi-filetype-pdf"></i>
+                <span>Baixar PDF</span>
+            </button>
+        </div>
+    </div>
+    <div class="card-body pagina">
+        <div class="pagina-faturamento shadow">
+            <div class="d-flex flex-column">
+                <div class="text-center fw-bolder fs-small mt-6">
+                    <div>03.1312 - PICHU COMPONENTES PARA ESQUADRIAS LTDA</div>
+                    <div>Rua Silvério Gonçalves, 375 - ANEXO 391</div>
+                    <div>Vila Maria Luisa - SAO PAULO - SP</div>
+                    <div>CNPJ: 53.058.749/0001-56 - Insc. Est.: 111.025.543.111</div>
+                    <br>
+                </div>
+                <div class="tabela-faturamento">
+                    <table class="table table-bordered border-secondary">
+                        <thead>
+                            <tr>
+                                <th scope="col">Mês/Ano</th>
+                                <th scope="col">Faturamento</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let faturamento of faturamentos">
+                                <th scope="row">{{ faturamento.mesAno }}</th>
+                                <td>R$ {{ faturamento.faturamentoMes }}</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>TOTAL</th>
+                                <th>R$ 14.520.911,89</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <br>
+
+                <div class="text-center fs-small">SAO PAULO, segunda-feira, 19 de agosto de 2024</div>
+                <div class="d-flex gap-10 assinaturas">
+                    <div class="text-center fs-small">
+                        <hr>
+                        <div>VALTER YUKIO KAMIKOGA</div>
+                        <div>CT CRC No. 1SP104418/O-1</div>
+                        <div>CPF No. 606.430.728-53</div>
+                    </div>
+                    <div class="text-center fs-small">
+                        <hr>
+                        <div>EDUARDO SALVADOR</div>
+                        <div>CPF: 091.451.148-38</div>
+                        <div>RG: 155481526</div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

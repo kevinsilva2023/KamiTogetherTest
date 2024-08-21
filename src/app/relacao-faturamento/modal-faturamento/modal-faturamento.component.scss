@@ -1,0 +1,49 @@
+.bg-color-info {
+    background-color: #2ea7cb;
+    color: #fff;
+}
+.btn-small {
+    padding: 2px 10px;
+    font-size: 12px;
+}
+.btn-visualizar {
+    background-color: #727cb6;
+    color: #fff;
+}
+.pagina {
+    padding: 20px 130px;
+}
+.pagina-faturamento {
+    background-image: url('../../../assets/timbrado.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 780px;
+}
+.cabecalho-faturamento {
+    text-align: center;
+    font-weight: bolder;
+}
+.tabela-faturamento {
+    position: relative;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    
+    th, td {
+        padding: 4px 10px;
+        font-size: 10px;
+    }
+}
+.assinaturas {
+    margin: auto;
+}
+.gap-10 {
+    gap: 100px;
+}
+.fs-small {
+    font-size: 10px
+}
+.mt-6 {
+    margin-top: 100px;
+}
